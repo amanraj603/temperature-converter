@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+
     const temperatureInput = document.getElementById("temperatureInput");
     const fromUnit = document.getElementById("fromUnit");
     const toUnit = document.getElementById("toUnit");
@@ -27,4 +27,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
         result.textContent = `${convertedTemperature.toFixed(2)} ${to === "celsius" ? "°C" : "°F"}`;
     });
-});
